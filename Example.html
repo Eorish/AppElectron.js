@@ -1,0 +1,89 @@
+<html lang="en">
+
+                        <!--Hi no use head e no title app Electron application does not use title or head-->
+<body>
+
+    <style>
+
+        body {
+            background-color: rgb(61, 61, 61);
+            user-select: none;
+            border: none;
+            outline: none;
+        }
+        
+        #edition {
+            position: absolute;
+            color: white;
+            top: 35%;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 35%;
+        }
+        intall {
+            position: absolute;
+            color: white;
+            top: 35%;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 35%;
+        }
+        .button {
+            background-color:black;
+            color: white;
+            border: none;
+            padding: 3px 20px;
+            cursor: pointer;
+            left: 20%;
+            position: absolute;  border-radius: 20px;
+        }
+        .button:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        .bg-primary {
+            background-color:rgb(189, 88, 88);
+            color: white;
+            border: none;
+            padding: 3px 20px;
+            cursor: pointer;
+            left: 45%;
+            position: absolute;
+            border-radius: 20px;
+        }
+        .bg-primary:hover {
+            background-color:red;
+        }
+        img {
+            position: absolute;
+            width: 90%;
+            left: -90%;
+            top: -40%;
+        }
+        font {
+            color: rgb(204, 252, 172)
+        }
+    </style>
+
+    <script type="text/javascript">
+        const url = "https://github.com/hastedPy";
+        function github(){
+            window.location.href = url;
+            alert("Hello, follow me!")
+        }
+    </script>
+                                        <!--Good fun with your aplication.-->
+    <div id="edition">
+    <div id="Pog">
+    <img ondragstart="return false"; src="https://media2.giphy.com/media/14u2xf1flRHgacyWu6/giphy.gif?cid=6c09b952vpjaorjxp1e0f375goa2636h2468rrzru731jc9q&rid=giphy.gif&ct=s">
+    </div>
+    <h1>Installed Application</h1>
+    <install>read directory <font>Example.html</font><p>GitHub
+    <button class="button" onclick="github()">Visit</button>
+    <button  class="bg-primary" onclick="window.close()">Close</button>
+</p>
+</install>
+</div>
+
+    <!--finally end-->
+
+</body>
+</html>

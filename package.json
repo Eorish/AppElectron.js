@@ -1,0 +1,15 @@
+{
+  "name": "App_desktop",
+  "version": "1.0.0",
+  "description": "Electron",
+  "main": "in.js",
+  "scripts": {
+    "start": "electron in.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.1"
+  }
+}
